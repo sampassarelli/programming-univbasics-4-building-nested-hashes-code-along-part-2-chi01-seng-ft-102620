@@ -28,7 +28,7 @@ epic_tragedy[:capulet][:heroine][:status] = "dead"
 
 
   # After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
-  puts epic_tragedy
+  epic_tragedy
 end
 
 def add_characters
@@ -67,5 +67,5 @@ epic_tragedy[:additional_characters] = [{:name => "Prince Escalus"}, {:name => "
 
 
    # After your code, the following line will return the altered hash
-   puts epic_tragedy
+   epic_tragedy
 end
